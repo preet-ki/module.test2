@@ -1,0 +1,135 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.butn{
+    margin-left: 32px;
+}
+a{
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+.dateshower {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+#create{
+    float: right;
+    position: relative;
+    top:-18px;
+}
+#create:hover{
+    cursor: pointer;
+}
+#head{
+    position: relative;
+    top:8px;
+    font-size: 25px;
+}
+section{
+    border: 1px solid white;
+    position: relative;
+    top:20px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+ .heads{
+font-size: 22px;
+font-weight: 520;
+margin-left: 10px;
+}
+.edits{
+    margin-left: 10px;
+    margin-bottom: 15px;
+    padding:3px 15px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.delete{
+    margin-left: 10px;
+    padding:3px 15px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+
+}
+.para{
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+
+.row{
+    position: relative;
+    top:-700px;
+    border: 1px solid black;
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px;
+    color: rgb(127, 127, 127);
+    padding-top: 10px;
+    width: 700px;
+    margin-left: 100px;
+}
+.inputs{
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.texts{
+    margin-bottom: 15px;
+}
+.sub,.subs{
+    width:180px ;
+    margin-top: 10px;
+    padding: 10px;
+}
+.sub{
+    position: relative;
+    bottom: -15px;
+}
+.subs{
+    position: relative;
+    left:200px;
+    bottom: 35px;
+}
+.texts{
+    width: 700px;
+    height: 200px;
+}
+.del{
+   position: relative;
+   top:110px; 
+   left:68%;
+   z-index: 2;
+   color: #000;
+}
+
+@media  screen and (min-width:350px) and (max-width:420px){
+    .row{
+        width: 50%;
+        position: relative;
+        top:-1200px;
+        left:-30px;
+    }
+    .texts{
+        width: 180px;
+    }
+    .subs{
+        position: relative;
+        left:2px;
+        top:20px;
+    }
+}
